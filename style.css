@@ -1,4 +1,12 @@
+header{
 .elevating-every-print-with-precision-and-passion{
+    margin: none;
+    #rasi-marketing-statement{
+        background-color: rgb(133, 197, 133);
+        color: white;
+        text-align: center;
+        padding: 1%;
+    }
 background-image:linear-gradient(rgb(30,30,30,0.5), rgba(30, 30, 30, 0.5)),url("images/elevating-every-print-with-precision-and-passion.png");
 height:400px;
 background-position: center;
@@ -21,11 +29,11 @@ position: relative;
         
     }
     nav span{
-        padding-right: 30%;
+        padding-right: 5%;
         color:white;
     }
     nav i{
-        padding-left:30%;
+        padding-left:5%;
         color:white;
     }
     nav ul{
@@ -54,4 +62,5 @@ position: relative;
         }
     }
 
+}
 }
