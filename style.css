@@ -1,3 +1,6 @@
+body,html{
+    height:100%;
+}
 header{
 .elevating-every-print-with-precision-and-passion{
     margin: none;
@@ -63,4 +66,27 @@ position: relative;
     }
 
 }
+}
+.reach-out-screen-printing-today{
+    background-image: url("images/rasi-screen-printing-map.png");
+    height:80%;
+    width:95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 3%;
+    border-radius: 2%;
+}
+.rasi-printing-map-image{
+    padding: 2%;
+    text-align: justify;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-60%, -50%);
+    color: black;
+    border-radius: 5%;
+    background-color: white;
+
 }
