@@ -280,14 +280,31 @@ footer{
     .arvind-pvt-gap-myntra-puma-aditya-birla-converse{
         /* display: block; */
     }
-    .india-no-1-screen-printing-company-content{
+    .india-no-1-screen-printing-company{
         display: block;
+        width:100vw;
     }
     .high-quality-printing-and-on-time{
         display: block;
+        width:100vw;
     }
     .premium-quality-warranty-protection-timely-shipping-sustainable-artistry{
         display: block;
     }
-    
+    .aditya-birla-arvind-pvt-raymond-mills{
+        display: block;
+    }
+    .high-quality-printing-and-on-time{
+        display: block;
+        p{
+            width:100vw;
+        }
+        img{
+            width:100vw;
+            height:50vh;
+        }
+    }
+   .showcasing-products-pictures{
+    display: block;
+   }
 }
