@@ -109,6 +109,119 @@ header{
         display: flex;
     }
 }
+
+.screen-and-process-printing{
+    display:flex;
+    width:100vw;
+ 
+   
+    img{
+        width: 35vw;
+        height: 50vh;
+        border-radius: 5%;
+        
+    }
+   
+    .traditional-textile-screen-printing{
+     img{
+        size:1px;
+     }
+    }
+    .four-color-process-printing{
+        /* img{
+          
+        } */
+    }
+    
+}
+.aditya-birla-arvind-pvt-raymond-mills{
+    display:flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    .aditya-birla{
+        display: flex;
+        
+    }
+    .arvind-pvt{
+        display: flex;
+     
+        
+    }
+    .raymond-mills{
+        display:flex;
+        
+        
+    }
+    img{
+        padding-top: 10%;
+        width:5vw;
+        height:5vh;
+    }
+}
+.high-quality-printing-and-on-time{
+    display:flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+   
+    justify-content: space-between;
+    align-items: center;
+    .fa-star{
+        color:rgb(48, 90, 48)
+    }
+    P{
+        width:58vw;
+    }
+    img{
+        width:35vw;
+        height:30vh;
+        border-radius:15px;
+
+    }
+}
+.arvind-pvt-gap-myntra-puma-aditya-birla-converse{
+    display: flex;
+    height: 3vh;
+    width:70vw;
+    padding-top: 7%;
+    justify-content: space-around;
+    text-align: center;
+}
+.showcasing-our-best-and-proudest-works{
+    justify-content: center;
+    p
+    {
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    img{
+        width:30vw;
+        height: 40vh;
+        border-radius: 5%;
+    }
+
+.showcasing-products-pictures{
+    display: flex;
+   justify-content: center;
+    height:30vh;
+    width: 100vw;
+    gap:1%;
+   
+}
+#showcasing-our-best-works4{
+    padding-top: 10%;
+    padding-left: 20%;
+    border-radius: 0%;
+    height:30vh;
+    width:50vw;
+    align-items: center;
+}
+}
+.reachout-to-rasi-screening{
+    text-align: center;
+}
 .reach-out-screen-printing-today{
     background-image: url("images/rasi-screen-printing-map.png");
     height:80%;
@@ -118,7 +231,8 @@ header{
     background-size: cover;
     position: relative;
     left: 3%;
-    border-radius: 2%;
+    border-radius: 5%;
+    margin-bottom: 20%;
 }
 .rasi-printing-map-image{
     padding: 2%;
@@ -128,7 +242,46 @@ header{
     left: 20%;
     transform: translate(-60%, -50%);
     color: black;
-    border-radius: 5%;
+    border-radius: 3%;
     background-color: white;
+    
 
+}
+footer{
+   
+    background-color:rgb(25, 25, 51);
+    color: white;
+    p{
+        text-align: none;
+    }
+   #copyrights{
+    text-align: center;
+   }
+}
+.accounts-contact-sitemap-headoffice{
+    display: flex;
+    justify-content: space-evenly;
+    gap:5%;
+    img{
+        padding-left: 10%;
+        padding-top: 30%;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 1024px) {
+
+    body{
+        height: 100vh;
+        width: 100vw;
+       
+    }
+    .accounts-contact-sitemap-headoffice{
+        display: flex;
+    }
+    .arvind-pvt-gap-myntra-puma-aditya-birla-converse{
+        display: block;
+    }
+    .aditya-birla{
+        display: block;
+    }
+    
 }
